@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">BSRU team</string>
-    <string name="sing_up" >สมัครสมาชิก</string>
+    <string name="sing_up">สมัครสมาชิก</string>
+    <string name="title_activity_sevice">Map</string>
 </resources>

@@ -110,6 +110,12 @@ public class MainActivity extends AppCompatActivity { // main calss <
                 Toast.makeText(MainActivity.this, "Welcom" + loginStrings[1],
                 Toast.LENGTH_SHORT).show();
 
+                //Intent to Service
+                Intent intent = new Intent(MainActivity.this,SeviceActivity.class);
+                intent.putExtra("Login", loginStrings);
+                startActivity(intent);
+                finish();
+
             }
 
         } catch (Exception e) {
